@@ -2,3 +2,4 @@
 /node_modules
 /registries
 /gen
+db.config.json

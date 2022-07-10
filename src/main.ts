@@ -1,5 +1,4 @@
-import { Application } from 'https://deno.land/x/oak@v10.6.0/mod.ts';
-import { green, yellow } from 'https://deno.land/std@0.53.0/fmt/colors.ts';
+import { Application, green, yellow } from './deps.ts';
 import userRouter from './routes/user.ts';
 
 const app = new Application();
