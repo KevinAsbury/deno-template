@@ -20,11 +20,11 @@ const createUser = () => {
   return new User();
 };
 
-const updateUser = () => {
+const updateUserById = () => {
   return new User();
 };
 
-const deleteUser = () => {
+const deleteUserById = () => {
   return new User();
 };
 
@@ -34,6 +34,6 @@ export default {
   getUserById,
   getUserByEmail,
   createUser,
-  updateUser,
-  deleteUser,
+  updateUserById,
+  deleteUserById,
 };
