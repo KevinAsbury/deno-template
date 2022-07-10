@@ -4,10 +4,10 @@ import userController from '../controllers/user.ts';
 const router = new Router();
 
 router
-  .get('/todos', userController.getAllUsers)
-  .post('/todos', userController.createUser)
-  .get('/todos/:id', userController.getUserById)
-  .put('/todos/:id', userController.updateUser)
-  .delete('/todos/:id', userController.deleteUser);
+  .get('/users', userController.getAllUsers)
+  .post('/users', userController.createUser)
+  .get('/users/:id', userController.getUserById)
+  .put('/users/:id', userController.updateUser)
+  .delete('/users/:id', userController.deleteUser);
 
 export default router;
