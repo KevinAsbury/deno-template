@@ -1,11 +1,11 @@
 import { Application, green, yellow } from './deps.ts';
-import userRouter from './routes/user.ts';
+import router from './routes/router.ts';
 
 const app = new Application();
 const port = 5050;
 
-app.use(userRouter.routes());
-app.use(userRouter.allowedMethods());
+app.use(router.routes());
+app.use(router.allowedMethods());
 
 app.addEventListener('listen', ({ secure, hostname, port }) => {
   const protocol = secure ? 'https://' : 'http://';
