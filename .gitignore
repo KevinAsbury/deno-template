@@ -3,3 +3,5 @@
 /registries
 /gen
 db.config.json
+RSA-OAEP-256-Private*
+RSA-OAEP-256-Public*

@@ -1,11 +1,11 @@
 import User from '../classes/User.ts';
 
-const newUser = () => {
-  return new User();
-};
-
 const getAllUsers = () => {
   return [] as User[];
+};
+
+const createUser = () => {
+  return new User();
 };
 
 const getUserById = () => {
@@ -13,10 +13,6 @@ const getUserById = () => {
 };
 
 const getUserByEmail = () => {
-  return new User();
-};
-
-const createUser = () => {
   return new User();
 };
 
@@ -29,7 +25,6 @@ const deleteUserById = () => {
 };
 
 export default {
-  newUser,
   getAllUsers,
   getUserById,
   getUserByEmail,
