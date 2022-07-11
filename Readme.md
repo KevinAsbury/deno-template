@@ -25,7 +25,7 @@ cp config/db.config.development.ts config/db.config.ts
 deno run --allow-write --allow-read keygen.ts
 ```
 
-- Edit values in `db.config.json` to match your connection parameters
+- Edit values in `db.config.ts` to match your connection parameters
 
 ## Run
 
