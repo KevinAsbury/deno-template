@@ -29,4 +29,4 @@ deno run --allow-write --allow-read keygen.ts
 
 ## Run
 
-`deno run --allow-net src/application.ts`
+`deno run --allow-net application.ts`

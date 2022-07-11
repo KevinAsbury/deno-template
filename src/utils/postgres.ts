@@ -1,4 +1,4 @@
-import { Client } from '../deps.ts';
+import { Client } from '../../deps.ts';
 import env from '../../config/db.config.json' assert { type: 'json' };
 
 const client = new Client({

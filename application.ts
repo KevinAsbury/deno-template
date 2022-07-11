@@ -1,5 +1,5 @@
 import { Application, green, yellow } from './deps.ts';
-import router from './routes/router.ts';
+import router from './src/routes/router.ts';
 
 const app = new Application();
 const port = 5050;

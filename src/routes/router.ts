@@ -1,4 +1,4 @@
-import { Router } from '../deps.ts';
+import { Router } from '../../deps.ts';
 import userController from '../controllers/user.ts';
 
 const router = new Router();
