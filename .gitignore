@@ -2,6 +2,6 @@
 /node_modules
 /registries
 /gen
-db.config.json
+db.config.ts
 RSA-OAEP-256-Private*
 RSA-OAEP-256-Public*

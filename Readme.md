@@ -21,7 +21,7 @@ postgres-# \i ~/repo/location/db/schema/core_development.sql
 postgres-# \i ~/repo/location/db/tables/users.sql
 postgres-# \q
 
-cp config/db.config.development.json config/db.config.json
+cp config/db.config.development.ts config/db.config.ts
 deno run --allow-write --allow-read keygen.ts
 ```
 
