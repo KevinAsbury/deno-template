@@ -3,3 +3,4 @@ export { green, yellow } from 'https://deno.land/std@0.53.0/fmt/colors.ts';
 export { Client } from 'https://deno.land/x/postgres@v0.16.1/mod.ts';
 export type { ClientOptions } from 'https://deno.land/x/postgres@v0.16.1/mod.ts';
 export { format } from 'https://deno.land/std/datetime/mod.ts';
+export * as bcrypt from 'https://deno.land/x/bcrypt@v0.4.0/mod.ts';

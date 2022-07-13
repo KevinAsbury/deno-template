@@ -1,4 +1,4 @@
-import { format } from './src/deps.ts';
+import { format } from './deps.ts';
 // deno run --allow-write --allow-read keygen.ts
 await window.crypto.subtle
   .generateKey(
